@@ -1,0 +1,19 @@
+{
+  "name": "sd-supermercado-mqtt",
+  "version": "1.0.0",
+  "main": "publisher.js",
+  "repository": "git@github.com:Paulo301/sd-supermercado-mqtt.git",
+  "author": "Paulo301 <paulovictor1918@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon publisher.js",
+    "client": "node subscriber.js"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.4",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
